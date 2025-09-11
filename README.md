@@ -6,6 +6,14 @@ This project was created as a personal learning project and can be used to showc
 ⚠️ **Disclaimer:** All responses are for **educational purposes only** and are *not medical advice*.  
 
 ---
+## 📸 Demo Screenshot
+
+Here’s the chatbot running in the browser:
+
+![Demo Screenshot](demo.png)
+
+---
+
 
 ## 🚀 Features
 - Built with **Flask** (Python web framework)  
