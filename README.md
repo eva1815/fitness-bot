@@ -1,7 +1,11 @@
 # 🏋️‍♀️ Fitness & Nutrition Chatbot
 
-A simple **web-based chatbot** built with **Python (Flask)** that provides quick tips on **fitness, nutrition, hydration, and supplements**.  
-This project was created as a personal learning project and can be used to showcase web chatbot development skills.  
+[![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)](https://www.python.org/) 
+[![Flask](https://img.shields.io/badge/Flask-Web_Framework-green?logo=flask)](https://flask.palletsprojects.com/) 
+[![Deployed on Render](https://img.shields.io/badge/Deploy-Render-purple?logo=render)](https://render.com/)
+
+> A **Flask-based web chatbot** that answers **fitness & nutrition questions** with a custom knowledge base, semantic Q&A (TF-IDF + cosine similarity), and a modern chat UI.  
+> 🚀 **Live Demo:** https://fitness-bot-ketp.onrender.com/
 
 ⚠️ **Disclaimer:** All responses are for **educational purposes only** and are *not medical advice*.  
 
