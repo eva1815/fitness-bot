@@ -31,3 +31,9 @@ This project was created as a personal learning project and can be used to showc
 ---
 
 ## 📂 Project Structure
+fitness-bot/
+│── app.py # Main Flask app
+│── requirements.txt # Project dependencies
+│── Procfile # (Optional) for deployment on Render/Heroku
+│── README.md # Project documentation
+└── .venv/ # Virtual environment (not uploaded to GitHub)
