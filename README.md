@@ -1,3 +1,16 @@
+# 👋 Hi, I'm Eva Fan  
+
+🎓 Software Engineering Technology student @ McMaster University  
+💻 Passionate about **Python, Flask, SQL, and Data Analytics**  
+🚀 Recently built a **Fitness & Nutrition Chatbot** (Flask + scikit-learn + Render)  
+
+---
+## 📫 Connect with Me  
+- 💼 [LinkedIn](www.linkedin.com/in/evafan)  
+  
+---
+✨ Always learning, always building, and open to **co-op opportunities** in software development, web dev, or data analytics.
+
 # 🏋️‍♀️ Fitness & Nutrition Chatbot
 
 [![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)](https://www.python.org/) 
@@ -17,7 +30,6 @@ Here’s the chatbot running in the browser:
 ![Demo Screenshot](demo.png)
 
 ---
-
 
 ## 🚀 Features
 - Built with **Flask** (Python web framework)  
