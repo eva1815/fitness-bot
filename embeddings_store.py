@@ -1,32 +1,32 @@
-# embeddings_store.py  (Render-friendly, no torch)
-from typing import List, Dict, Tuple
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
+# embeddings_store.py
+from typing import List, Dict, Any
+import numpy as np
+from sentence_transformers import SentenceTransformer
+from sklearn.neighbors import NearestNeighbors
+model = SentenceTransformer("sentence-transformers/paraphrase-MiniLM-L3-v2")
 
 class EmbStore:
-    def __init__(self, kb_items: List[Dict[str, str]]):
-        """
-        kb_items: list of {"q": "...", "a": "..."}
-        """
-        self.kb = kb_items[:]
+    def __init__(self, kb_items: List[Dict[str, str]], model_name: str = "sentence-transformers/all-MiniLM-L6-v2"):
+        self.kb = kb_items[:]  # keep original order for stable indices
+        self.model = SentenceTransformer(model_name)
+        # We embed the KB "q" field (queries/prompts). You can also embed answers if you prefer.
         self.texts = [it["q"] for it in self.kb]
-        # simple English stop-words; tiny and memory-friendly
-        self.vect = TfidfVectorizer(stop_words="english", ngram_range=(1,2))
-        self.matrix = self.vect.fit_transform(self.texts)
+        self.embs = self.model.encode(self.texts, normalize_embeddings=True)
+        self.nn = NearestNeighbors(n_neighbors=5, metric="cosine")
+        self.nn.fit(self.embs)
 
-    def search(self, query: str, k: int = 3) -> List[Dict]:
-        if not query.strip():
-            return []
-        qv = self.vect.transform([query])
-        sims = cosine_similarity(qv, self.matrix).ravel()
-        # top-k indices by similarity
-        top_idx = sims.argsort()[::-1][:k]
-        hits = []
-        for i in top_idx:
-            hits.append({
-                "i": i,
-                "q": self.kb[i]["q"],
-                "a": self.kb[i]["a"],
-                "score": float(sims[i]),
+    def search(self, query: str, k: int = 3) -> List[Dict[str, Any]]:
+        q_emb = self.model.encode([query], normalize_embeddings=True)
+        distances, idxs = self.nn.kneighbors(q_emb, n_neighbors=min(k, len(self.texts)))
+        # cosine distance ∈ [0,2], similarity = 1 - distance
+        results = []
+        for d, i in zip(distances[0], idxs[0]):
+            sim = 1.0 - float(d)
+            item = self.kb[int(i)]
+            results.append({
+                "i": int(i),
+                "score": sim,
+                "q": item["q"],
+                "a": item["a"]
             })
-        return hits
+        return results

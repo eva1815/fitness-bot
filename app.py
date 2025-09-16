@@ -186,13 +186,15 @@ def smart_reply(user_text: str) -> str:
 
     # 5) Optional LLM rewrite (V3)
     if out and use_llm:
-      prompt = build_grounded_prompt(user_text, hits)
-      llm_text = generate_answer(prompt) or ""
-      if llm_text.strip():
+        prompt = build_grounded_prompt(user_text, hits)
+        llm_text = generate_answer(prompt)
+        if llm_text:
+            log_event({"type": "llm_answer", "q": user_text, "top_score": hits[0]["score"] if hits else None})
+            return "Coach FitEva:\n" + llm_text
 
-        if out:
-          log_event({"type": "answer", "q": user_text, "top_score": hits[0]["score"] if hits else None})
-          return "Coach FitEva:\n" + out
+    if out:
+        log_event({"type": "answer", "q": user_text, "top_score": hits[0]["score"] if hits else None})
+        return "Coach FitEva:\n" + out
 
     # 6) Intent fallback (low-confidence retrieval)
     intents = {
