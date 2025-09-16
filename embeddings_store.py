@@ -3,6 +3,7 @@ from typing import List, Dict, Any
 import numpy as np
 from sentence_transformers import SentenceTransformer
 from sklearn.neighbors import NearestNeighbors
+model = SentenceTransformer("sentence-transformers/paraphrase-MiniLM-L3-v2")
 
 class EmbStore:
     def __init__(self, kb_items: List[Dict[str, str]], model_name: str = "sentence-transformers/all-MiniLM-L6-v2"):
