@@ -79,3 +79,5 @@
 {"type": "feedback", "q": "Hey", "useful": true, "ts": "2025-09-16T20:10:01.384718"}
 {"type": "chitchat", "q": "hello", "ts": "2025-09-16T20:10:05.391866"}
 {"type": "answer", "q": "Workouts", "top_score": 0.5197545886039734, "ts": "2025-09-16T20:11:43.977229"}
+{"type": "out_of_scope", "q": "hey", "ts": "2025-09-16T20:13:59.451197"}
+{"type": "chitchat", "q": "hi", "ts": "2025-09-16T20:14:02.795218"}
