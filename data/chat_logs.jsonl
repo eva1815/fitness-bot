@@ -70,3 +70,4 @@
 {"type": "out_of_scope", "q": "really", "ts": "2025-09-16T17:57:57.024974"}
 {"type": "answer", "q": "running", "top_score": 0.2630656361579895, "ts": "2025-09-16T17:58:02.990850"}
 {"type": "answer", "q": "how much protein do I need?”", "top_score": 0.7493030428886414, "ts": "2025-09-16T18:00:03.829713"}
+{"type": "out_of_scope", "q": "hey", "ts": "2025-09-16T20:06:02.223003"}
