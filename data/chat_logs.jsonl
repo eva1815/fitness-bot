@@ -1,0 +1,72 @@
+{"type": "answer", "q": "how much protein do i need?", "top_score": 0.7680754661560059, "ts": "2025-09-16T14:01:21.141662"}
+{"type": "feedback", "q": "how much protein do i need?", "useful": true, "ts": "2025-09-16T14:01:40.042685"}
+{"type": "feedback", "q": "how much protein do i need?", "useful": false, "ts": "2025-09-16T14:01:44.000804"}
+{"type": "feedback", "q": "how much protein do i need?", "useful": false, "ts": "2025-09-16T14:01:45.109847"}
+{"type": "answer", "q": "what should I eat before running?", "top_score": 0.5834019184112549, "ts": "2025-09-16T14:02:08.728880"}
+{"type": "fallback_generic", "q": "how's coach Eva", "ts": "2025-09-16T14:03:19.641710"}
+{"type": "feedback", "q": "how's coach Eva", "useful": false, "ts": "2025-09-16T14:06:18.586429"}
+{"type": "answer", "q": "how much protein per day for women?", "top_score": 0.8996232748031616, "ts": "2025-09-16T14:13:11.695471"}
+{"type": "fallback_generic", "q": "What’s the capital of Spain?", "ts": "2025-09-16T14:14:50.193818"}
+{"type": "answer", "q": "no water to workout", "top_score": 0.508381187915802, "ts": "2025-09-16T14:17:14.408486"}
+{"type": "fallback_generic", "q": "what’s the capital of Spain?", "ts": "2025-09-16T14:20:33.516061"}
+{"type": "fallback_generic", "q": "how to get a US visa", "ts": "2025-09-16T14:20:51.662430"}
+{"type": "fallback_generic", "q": "how's coach Eva", "ts": "2025-09-16T14:21:29.937875"}
+{"type": "feedback", "q": "how's coach Eva", "useful": true, "ts": "2025-09-16T14:21:34.914929"}
+{"type": "feedback", "q": "how's coach Eva", "useful": true, "ts": "2025-09-16T14:21:35.616700"}
+{"type": "feedback", "q": "how's coach Eva", "useful": true, "ts": "2025-09-16T14:21:36.620723"}
+{"type": "feedback", "q": "how's coach Eva", "useful": false, "ts": "2025-09-16T14:21:37.477463"}
+{"type": "feedback", "q": "how's coach Eva", "useful": false, "ts": "2025-09-16T14:21:39.260730"}
+{"type": "fallback_generic", "q": "how are you", "ts": "2025-09-16T14:29:01.540776"}
+{"type": "chitchat", "q": "how are you", "ts": "2025-09-16T14:48:03.829948"}
+{"type": "feedback", "q": "how are you", "useful": true, "ts": "2025-09-16T14:48:08.312230"}
+{"type": "out_of_scope", "q": "how's your day", "ts": "2025-09-16T14:48:13.465947"}
+{"type": "answer", "q": "running", "top_score": 0.2630656361579895, "ts": "2025-09-16T14:48:30.179304"}
+{"type": "answer", "q": "protein", "top_score": 0.44582974910736084, "ts": "2025-09-16T14:48:54.115602"}
+{"type": "answer", "q": "home workout", "top_score": 0.6474889516830444, "ts": "2025-09-16T14:49:19.950153"}
+{"type": "chitchat", "q": "how's coach Eva", "ts": "2025-09-16T14:49:32.897582"}
+{"type": "chitchat", "q": "hi", "ts": "2025-09-16T15:13:25.804610"}
+{"type": "chitchat", "q": "hello", "ts": "2025-09-16T15:20:06.401166"}
+{"type": "answer", "q": "workout", "top_score": 0.5220991373062134, "ts": "2025-09-16T15:20:14.164710"}
+{"type": "answer", "q": "Nutrition", "top_score": 0.4206885099411011, "ts": "2025-09-16T15:20:19.591173"}
+{"type": "answer", "q": "Workouts", "top_score": 0.5197545886039734, "ts": "2025-09-16T15:20:25.470278"}
+{"type": "out_of_scope", "q": "how's coach", "ts": "2025-09-16T15:20:54.528667"}
+{"type": "out_of_scope", "q": "what kind of person is coach", "ts": "2025-09-16T15:21:10.520713"}
+{"type": "out_of_scope", "q": "does coach is a great expert?", "ts": "2025-09-16T15:21:30.536735"}
+{"type": "answer", "q": "protein", "top_score": 0.44582974910736084, "ts": "2025-09-16T15:22:00.587460"}
+{"type": "answer", "q": "how much protein do i need?", "top_score": 0.7680754661560059, "ts": "2025-09-16T15:24:09.021390"}
+{"type": "feedback", "q": "", "useful": true, "ts": "2025-09-16T15:27:23.628574"}
+{"type": "answer", "q": "running", "top_score": 0.2630656361579895, "ts": "2025-09-16T15:27:39.676659"}
+{"type": "feedback", "q": "running", "useful": true, "ts": "2025-09-16T15:27:40.728681"}
+{"type": "feedback", "q": "", "useful": false, "ts": "2025-09-16T15:29:38.924610"}
+{"type": "chitchat", "q": "hi", "ts": "2025-09-16T15:32:36.320696"}
+{"type": "feedback", "q": "hi", "useful": true, "ts": "2025-09-16T15:32:38.662697"}
+{"type": "answer", "q": "Workouts", "top_score": 0.5197545886039734, "ts": "2025-09-16T15:32:46.483634"}
+{"type": "feedback", "q": "Workouts", "useful": true, "ts": "2025-09-16T15:32:47.781811"}
+{"type": "feedback", "q": "", "useful": false, "ts": "2025-09-16T15:36:03.757977"}
+{"type": "chitchat", "q": "hello", "ts": "2025-09-16T15:36:25.370039"}
+{"type": "answer", "q": "Workouts", "top_score": 0.5197545886039734, "ts": "2025-09-16T15:36:28.650056"}
+{"type": "feedback", "q": "Workouts", "useful": true, "ts": "2025-09-16T15:36:29.881161"}
+{"type": "answer", "q": "meal", "top_score": 0.5169797539710999, "ts": "2025-09-16T15:36:37.120312"}
+{"type": "feedback", "q": "meal", "useful": false, "ts": "2025-09-16T15:36:38.379949"}
+{"type": "out_of_scope", "q": "where is spain", "ts": "2025-09-16T15:36:59.934532"}
+{"type": "feedback", "q": "where is spain", "useful": true, "ts": "2025-09-16T15:37:05.405809"}
+{"type": "feedback", "q": "", "useful": true, "ts": "2025-09-16T17:24:03.020910"}
+{"type": "out_of_scope", "q": "hey", "ts": "2025-09-16T17:24:30.782689"}
+{"type": "chitchat", "q": "how are you", "ts": "2025-09-16T17:24:45.395154"}
+{"type": "out_of_scope", "q": "hey", "ts": "2025-09-16T17:29:13.884112"}
+{"type": "feedback", "q": "hey", "useful": true, "ts": "2025-09-16T17:29:25.567048"}
+{"type": "answer", "q": "workout", "top_score": 0.5220991373062134, "ts": "2025-09-16T17:29:57.749677"}
+{"type": "out_of_scope", "q": "hey", "ts": "2025-09-16T17:36:50.974272"}
+{"type": "answer", "q": "workout", "top_score": 0.5220991373062134, "ts": "2025-09-16T17:36:58.359594"}
+{"type": "out_of_scope", "q": "hey", "ts": "2025-09-16T17:38:11.194362"}
+{"type": "answer", "q": "protein", "top_score": 0.44582974910736084, "ts": "2025-09-16T17:38:52.297089"}
+{"type": "out_of_scope", "q": "really", "ts": "2025-09-16T17:39:01.692899"}
+{"type": "out_of_scope", "q": "ye", "ts": "2025-09-16T17:39:07.205008"}
+{"type": "feedback", "q": "ye", "useful": true, "ts": "2025-09-16T17:39:10.441141"}
+{"type": "feedback", "q": "ye", "useful": false, "ts": "2025-09-16T17:39:22.888056"}
+{"type": "out_of_scope", "q": "hey", "ts": "2025-09-16T17:48:42.414850"}
+{"type": "out_of_scope", "q": "how'e Eva", "ts": "2025-09-16T17:57:40.417906"}
+{"type": "out_of_scope", "q": "coach is great?", "ts": "2025-09-16T17:57:52.016937"}
+{"type": "out_of_scope", "q": "really", "ts": "2025-09-16T17:57:57.024974"}
+{"type": "answer", "q": "running", "top_score": 0.2630656361579895, "ts": "2025-09-16T17:58:02.990850"}
+{"type": "answer", "q": "how much protein do I need?”", "top_score": 0.7493030428886414, "ts": "2025-09-16T18:00:03.829713"}
