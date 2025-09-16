@@ -72,3 +72,10 @@
 {"type": "answer", "q": "how much protein do I need?”", "top_score": 0.7493030428886414, "ts": "2025-09-16T18:00:03.829713"}
 {"type": "out_of_scope", "q": "hey", "ts": "2025-09-16T20:06:02.223003"}
 {"type": "out_of_scope", "q": "Hey", "ts": "2025-09-16T20:07:04.665875"}
+{"type": "out_of_scope", "q": "hey", "ts": "2025-09-16T20:09:08.310873"}
+{"type": "chitchat", "q": "hello", "ts": "2025-09-16T20:09:14.955944"}
+{"type": "answer", "q": "workout", "top_score": 0.5220991373062134, "ts": "2025-09-16T20:09:31.890770"}
+{"type": "out_of_scope", "q": "Hey", "ts": "2025-09-16T20:09:49.527458"}
+{"type": "feedback", "q": "Hey", "useful": true, "ts": "2025-09-16T20:10:01.384718"}
+{"type": "chitchat", "q": "hello", "ts": "2025-09-16T20:10:05.391866"}
+{"type": "answer", "q": "Workouts", "top_score": 0.5197545886039734, "ts": "2025-09-16T20:11:43.977229"}
