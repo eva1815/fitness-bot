@@ -32,9 +32,7 @@ def _openai_generate(prompt: str) -> Optional[str]:
         return None
 
 def generate_answer(prompt: str) -> Optional[str]:
-    if os.getenv("USE_OLLAMA") == "1":
-        text = _ollama_generate(prompt)
-        if text: return text
+   
     # Try OpenAI next
     if os.getenv("OPENAI_API_KEY"):
         text = _openai_generate(prompt)
