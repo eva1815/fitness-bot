@@ -81,3 +81,37 @@
 {"type": "answer", "q": "Workouts", "top_score": 0.5197545886039734, "ts": "2025-09-16T20:11:43.977229"}
 {"type": "out_of_scope", "q": "hey", "ts": "2025-09-16T20:13:59.451197"}
 {"type": "chitchat", "q": "hi", "ts": "2025-09-16T20:14:02.795218"}
+{"type": "out_of_scope", "q": "hey", "ts": "2025-09-16T20:35:27.639427"}
+{"type": "chitchat", "q": "hi", "ts": "2025-09-16T20:35:31.746922"}
+{"type": "chitchat", "q": "how are you", "ts": "2025-09-16T20:38:32.073735"}
+{"type": "chitchat", "q": "hi", "ts": "2025-09-16T20:42:56.700544"}
+{"type": "out_of_scope", "q": "hey", "ts": "2025-09-16T20:43:05.265817"}
+{"type": "chitchat", "q": "hi", "ts": "2025-09-16T20:43:44.402924"}
+{"type": "out_of_scope", "q": "hey", "ts": "2025-09-16T20:44:02.946357"}
+{"type": "chitchat", "q": "hi", "ts": "2025-09-16T20:44:13.006498"}
+{"type": "answer", "q": "Nutrition", "top_score": 0.4206885099411011, "ts": "2025-09-16T20:44:22.595577"}
+{"type": "answer", "q": "Workouts", "top_score": 0.5197545886039734, "ts": "2025-09-16T20:44:27.606008"}
+{"type": "chitchat", "q": "hi", "ts": "2025-09-16T20:50:10.633424"}
+{"type": "out_of_scope", "q": "hey", "ts": "2025-09-16T20:50:20.743515"}
+{"type": "out_of_scope", "q": "hey", "ts": "2025-09-16T20:51:36.173035"}
+{"type": "chitchat", "q": "How are you", "ts": "2025-09-16T20:51:45.475056"}
+{"type": "out_of_scope", "q": "how you doing", "ts": "2025-09-16T20:51:56.012123"}
+{"type": "out_of_scope", "q": "hey", "ts": "2025-09-16T20:53:16.349233"}
+{"type": "chitchat", "q": "hi", "ts": "2025-09-16T20:53:18.381601"}
+{"type": "chitchat", "q": "hi", "ts": "2025-09-16T20:53:50.093082"}
+{"type": "chitchat", "q": "hi", "ts": "2025-09-16T20:54:12.263786"}
+{"type": "chitchat", "q": "hi", "ts": "2025-09-16T20:54:38.529154"}
+{"type": "chitchat", "q": "hi", "ts": "2025-09-16T20:54:58.505346"}
+{"type": "chitchat", "q": "hi", "ts": "2025-09-16T20:55:46.635771"}
+{"type": "out_of_scope", "q": "hey", "ts": "2025-09-16T21:00:39.475534"}
+{"type": "chitchat", "q": "hi", "ts": "2025-09-16T21:00:41.339642"}
+{"type": "chitchat", "q": "how are you", "ts": "2025-09-16T21:00:48.121204"}
+{"type": "out_of_scope", "q": "good morning", "ts": "2025-09-16T21:00:54.545528"}
+{"type": "answer", "q": "workout'", "top_score": 0.4678860306739807, "ts": "2025-09-16T21:06:55.149930"}
+{"type": "answer", "q": "protein", "top_score": 0.44582974910736084, "ts": "2025-09-16T21:13:18.040388"}
+{"type": "out_of_scope", "q": "hey", "ts": "2025-09-16T21:15:29.096187"}
+{"type": "chitchat", "q": "hi", "ts": "2025-09-16T21:15:30.954813"}
+{"type": "chitchat", "q": "how are you", "ts": "2025-09-16T21:15:51.792761"}
+{"type": "answer", "q": "Nutrition", "top_score": 0.4206885099411011, "ts": "2025-09-16T21:15:56.390455"}
+{"type": "chitchat", "q": "hi", "ts": "2025-09-16T21:17:43.313463"}
+{"type": "chitchat", "q": "how are you", "ts": "2025-09-16T21:18:04.960887"}

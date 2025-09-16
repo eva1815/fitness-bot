@@ -280,7 +280,7 @@ header{
 
 /* For bot rows: push bubble left, keep actions inline right */
 .row.bot{ align-items:flex-start; }
-.row.bot .bubble{ flex:1; }   /* bubble takes all available space */
+
 .row.bot .actions{ margin-top:0; } /* keep aligned horizontally */
 
 /* For user rows: bubble stays on the right */
@@ -294,7 +294,10 @@ header{
 
 
 .bubble{
-  max-width:72%; padding:12px 14px; border-radius:14px; line-height:1.45;
+  max-width:72%; 
+  padding:12px 14px; 
+  border-radius:14px; 
+  line-height:1.45;
 }
 .bubble.me{
   background:var(--bubble-me);
